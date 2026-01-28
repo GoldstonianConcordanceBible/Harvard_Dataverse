@@ -1,0 +1,140 @@
+{
+  "datasetVersion": {
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "value": "REPLACE_WITH_VOLUME_II_FULL_TITLE",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "title"
+          },
+          {
+            "value": [
+              {
+                "authorName": {
+                  "value": "Goldston, Justin",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "authorName"
+                },
+                "authorAffiliation": {
+                  "value": "Georgetown University, Penn State University, Gemach DAO, SydTek University",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "authorAffiliation"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "author"
+          },
+          {
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactName",
+                  "value": "Goldston, Justin"
+                },
+                "datasetContactAffiliation": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactAffiliation",
+                  "value": "Georgetown University, Penn State University, Gemach DAO, SydTek University"
+                },
+                "datasetContactEmail": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactEmail",
+                  "value": "jg2048@georgetown.edu"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "datasetContact"
+          },
+          {
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "value": "REPLACE_WITH_VOLUME_II_DESCRIPTION (keep the same structure: purpose, what it supports, navigation, LLM retrieval, etc.)",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "typeName": "dsDescriptionValue"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "dsDescription"
+          },
+          {
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science",
+              "Law",
+              "Social Sciences"
+            ],
+            "typeClass": "controlledVocabulary",
+            "multiple": true,
+            "typeName": "subject"
+          },
+          {
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "REPLACE_KEYWORD_1"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "REPLACE_CONTROLLED_VOCAB_NAME"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "keyword"
+          },
+          {
+            "value": "YYYY-MM-DD",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "productionDate"
+          },
+          {
+            "value": "Depositor: Goldston, Justin\nDeposit Date: YYYY-MM-DD",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "notesText"
+          }
+        ],
+        "displayName": "Citation Metadata"
+      }
+    }
+  }
+}
