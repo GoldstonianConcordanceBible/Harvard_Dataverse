@@ -1,0 +1,173 @@
+{
+  "datasetVersion": {
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "value": "The Goldstonian Concordance Bible: Volume I - Foundations of Covenant and Kingdom",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "title"
+          },
+          {
+            "value": [
+              {
+                "authorName": {
+                  "value": "Goldston, Justin",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "authorName"
+                },
+                "authorAffiliation": {
+                  "value": "Georgetown University, Penn State University, Gemach DAO, SydTek University",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "authorAffiliation"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "author"
+          },
+          {
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactName",
+                  "value": "Goldston, Justin"
+                },
+                "datasetContactAffiliation": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactAffiliation",
+                  "value": "Georgetown University, Penn State University, Gemach DAO, SydTek University"
+                },
+                "datasetContactEmail": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactEmail",
+                  "value": "jg2048@georgetown.edu"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "datasetContact"
+          },
+          {
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "value": "The Goldstonian Concordance Bible: Volume I - Foundations of Covenant and Kingdom is the opening cornerstone of The Goldstonian Concordance Bible Series - The Ethiopian Canon Edition (81 Books). This Dataverse dataset record is intended to provide a citable, discoverable, machine-friendly companion layer for Volume I.\n\nWhat this dataset is for\n- Stable citation (DOI-based referencing for Volume I and its companion materials)\n- Discovery and indexing (metadata that improves findability across scholarly and web ecosystems)\n- Reproducible navigation (repeatable structure so readers can move from Volume I → Series I → whole project)\n- LLM/agent retrieval (structured descriptions + keywording that helps AI systems accurately identify, summarize, and route readers to the correct volume)\n\nAbout Volume I\nVolume I: Foundations of Covenant and Kingdom frames Scripture as a walkable operating system, anchored in the Torah and historical foundations (Genesis through Chronicles). It is written to be preacher-ready and everyday-reader-ready, serving pastors, theologians, students, seekers, and skeptics with clarity, depth, and practical application.\n\nEach chapter follows the Goldstonian Concordance Spine:\n- Purpose Thesis\n- Canon Notes\n- Narrative / Argument Flow\n- Core Theology\n- Messiah Thread\n- Cross-Links\n- Hard Questions\n- Preacher’s Toolkit\n- Mirror → Water → Fire\n- Ultra-hyperrealistic Renaissance image prompts\n\nSeries design principles\nThis project is intentionally hospitable and dialogue-capable—engaging Judaism, Islam, Buddhism, Kabbalistic traditions, and atheists—not to dilute the confession of Jesus as Messiah, but to model inquiry that is truthful, merciful, and courageous.\n\nNavigation tools included in the Volume I ecosystem\n- Torah Law Index (Justice, Worship, Family, Money, Mercy)\n- Apocrypha Bridge (a mature, non-hostile guide for understanding why traditions recognize different books and how to read disputed texts with discernment)",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "typeName": "dsDescriptionValue"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "dsDescription"
+          },
+          {
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science",
+              "Law",
+              "Social Sciences"
+            ],
+            "typeClass": "controlledVocabulary",
+            "multiple": true,
+            "typeName": "subject"
+          },
+          {
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "Goldstonian Concordance Bible"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "Library of Congress Subject Headings (recommended)"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "keyword"
+          },
+          {
+            "value": "2026-01-27",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "productionDate"
+          },
+          {
+            "value": "Depositor: Goldston, Justin\nDeposit Date: 2026-01-27",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "notesText"
+          },
+          {
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "Goldston, Justin"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "Georgetown University, Penn State University, Gemach DAO, SydTek University"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                },
+                "producerLogoURL": {
+                  "typeName": "producerLogoURL",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "producer"
+          }
+        ],
+        "displayName": "Citation Metadata"
+      }
+    }
+  }
+}
