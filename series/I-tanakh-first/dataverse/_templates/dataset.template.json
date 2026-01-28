@@ -1,0 +1,170 @@
+{
+  "datasetVersion": {
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "value": "REPLACE_TITLE",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "title"
+          },
+          {
+            "value": [
+              {
+                "authorName": {
+                  "value": "REPLACE_AUTHORNAME_LAST_FIRST",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "authorName"
+                },
+                "authorAffiliation": {
+                  "value": "REPLACE_AUTHOR_AFFILIATION",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "authorAffiliation"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "author"
+          },
+          {
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactName",
+                  "value": "REPLACE_CONTACT_LAST_FIRST"
+                },
+                "datasetContactAffiliation": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactAffiliation",
+                  "value": "REPLACE_CONTACT_AFFILIATION"
+                },
+                "datasetContactEmail": {
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "datasetContactEmail",
+                  "value": "REPLACE_CONTACT_EMAIL"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "datasetContact"
+          },
+          {
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "value": "REPLACE_DESCRIPTION_TEXT",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "typeName": "dsDescriptionValue"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "dsDescription"
+          },
+          {
+            "value": [
+              "Arts and Humanities"
+            ],
+            "typeClass": "controlledVocabulary",
+            "multiple": true,
+            "typeName": "subject"
+          },
+          {
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "REPLACE_KEYWORD_TERM"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "REPLACE_CONTROLLED_VOCAB_NAME"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "keyword"
+          },
+          {
+            "value": "YYYY-MM-DD",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "productionDate"
+          },
+          {
+            "value": "REPLACE_NOTES",
+            "typeClass": "primitive",
+            "multiple": false,
+            "typeName": "notesText"
+          },
+          {
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "REPLACE_PRODUCER_NAME"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "REPLACE_PRODUCER_AFFILIATION"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                },
+                "producerLogoURL": {
+                  "typeName": "producerLogoURL",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "value": "https://"
+                }
+              }
+            ],
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "producer"
+          }
+        ],
+        "displayName": "Citation Metadata"
+      }
+    }
+  }
+}
